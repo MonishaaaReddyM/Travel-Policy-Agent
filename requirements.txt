@@ -12,6 +12,8 @@ langchain
 langchain-community
 langgraph
 ollama
+openai
+anthropic
 
 # MCP
 mcp

@@ -1,6 +1,6 @@
 # AI Travel & Policy Assistant
 
-**Status:** Day 1 of 5 — Project Setup, Git & Policy Knowledge Base
+**Status:** Day 2 of 5 — Embeddings, Vector Search & RAG
 
 ## Business Problem
 Employees need a fast, reliable way to understand company travel policies
@@ -56,10 +56,34 @@ uber-ai-travel-policy-assistant/
   prompt templates for policy Q&A, trip validation, chunk classification,
   and structured extraction — reused and evaluated further on Day 5.
 
-## Running Day 1
+## Day 2 — What's implemented
+- `src/embeddings.py`:
+  - Loads `data/chunks.json` and embeds each chunk with Sentence
+    Transformers (`all-MiniLM-L6-v2`), normalized for cosine similarity.
+  - Builds a FAISS (`IndexFlatIP`) vector store and saves it to
+    `vector_store/` (index + chunk metadata), regenerable at any time.
+- `src/rag.py`:
+  - `search_policy(query, top_k=3)` — semantic search over the vector
+    store, with `explain_retrieval()` to show why each chunk was
+    retrieved (source, score, policy type).
+  - `generate_answer(question)` — the full RAG pipeline: retrieve → build
+    a grounded prompt (reusing the Day 1 `POLICY_QA_PROMPT_PTCF` template)
+    → call an LLM → parse a structured `Answer / Source` response.
+  - Supports **OpenAI or Anthropic** via `LLM_PROVIDER` in `.env` (copy
+    `.env.example` to `.env` and add your key).
+  - Source attribution: every answer reports which policy file(s) it came
+    from, or `Source: None` when nothing applies.
+  - Hallucination handling: see `tests/day2_hallucination_tests.md` — the
+    assistant explicitly declines to answer questions the policies don't
+    cover, rather than inventing a rule.
+
+## Running Day 1 + Day 2
 ```bash
 pip install -r requirements.txt
-python src/ingestion.py
+cp .env.example .env          # then fill in your OPENAI_API_KEY or ANTHROPIC_API_KEY
+python src/ingestion.py       # builds data/chunks.json
+python src/embeddings.py      # builds the FAISS vector store (downloads the embedding model on first run)
+python src/rag.py             # runs a search + RAG demo, then the hallucination tests
 ```
 
 ## Roadmap
@@ -75,8 +99,13 @@ python src/ingestion.py
 Python · Flask · LangChain · LangGraph · Sentence Transformers · FAISS/Chroma
 · LLM API / Ollama · MCP · Git/GitHub
 
-## Limitations (Day 1)
-- No embeddings, retrieval, tools, agent, memory, MCP, or Flask app yet —
-  these arrive on Days 2–4.
+## Limitations (Day 2)
+- No tools, agent, memory, MCP, or Flask app yet — these arrive on Days 3–4.
+- The vector store is a flat FAISS index (`IndexFlatIP`), which is exact
+  and fast at this dataset's tiny scale (19 chunks) but wouldn't scale to
+  a large document set without an approximate-search index type.
 - The chunker is paragraph-aware but tuned for these short, well-structured
   policy files; longer or less structured documents would need re-tuning.
+- Hallucination prevention relies on prompt instructions + the LLM's own
+  judgment of the retrieved context, not a hard relevance-score cutoff —
+  see `tests/day2_hallucination_tests.md` for the reasoning.
