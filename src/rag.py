@@ -43,7 +43,7 @@ from prompts import POLICY_QA_PROMPT_PTCF
 LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "openai").lower()  # "openai" | "anthropic" | "gemini"
 OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
 ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-6")
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.6-flash")
 
 DEFAULT_TOP_K = 3
 
