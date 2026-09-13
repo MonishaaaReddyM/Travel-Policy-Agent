@@ -1,0 +1,40 @@
+UBER FOR BUSINESS - SAMPLE AIRPORT TRAVEL POLICY
+Policy Version: 1.0
+Effective Date: 2026-01-01
+Policy Owner: Airport Travel Program
+
+1. Purpose
+This sample policy defines rules for company-sponsored Uber trips to and from airports.
+
+2. Eligible Airport Trips
+Airport trips are eligible when:
+- The employee is travelling for an approved business purpose.
+- The airport trip is connected to an approved business journey.
+- The employee uses the company-sponsored business profile.
+
+3. Airport Trip Limits
+India:
+- Standard limit: INR 2,000 per trip.
+- Trips above INR 2,000 require additional approval.
+
+United States:
+- Standard limit: USD 75 per trip.
+- Trips above USD 75 require additional approval.
+
+4. Late-Night Airport Trips
+Airport trips between 10:00 PM and 6:00 AM are allowed when connected to approved business travel. The normal spending and approval limits still apply.
+
+5. Personal Airport Trips
+Airport rides for personal holidays or other non-business travel are not reimbursable unless an explicit exception has been approved.
+
+6. Documentation
+The expense record should include:
+- Employee ID
+- Airport or travel location
+- Trip date
+- Business purpose
+- Trip amount
+- Approval reference, when additional approval is required
+
+7. Example
+An employee in India takes an approved business airport trip costing INR 1,800. The trip is within the standard limit and does not require additional spending approval.

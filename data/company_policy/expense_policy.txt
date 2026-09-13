@@ -1,0 +1,39 @@
+UBER FOR BUSINESS - SAMPLE EXPENSE POLICY
+Policy Version: 1.0
+Effective Date: 2026-01-01
+Policy Owner: Finance Operations
+
+1. Purpose
+This sample policy defines how employees should handle Uber business travel expenses.
+
+2. Reimbursable Amount
+The reimbursable amount is the lower of:
+- The actual trip amount.
+- The applicable country or trip spending limit.
+
+3. Country Limits
+India:
+Standard individual ride limit = INR 2,000.
+
+United States:
+Standard individual ride limit = USD 75.
+
+4. Trips Above the Limit
+If the actual trip amount exceeds the applicable limit, the employee must obtain the required approval before the excess amount can be considered reimbursable.
+
+5. Expense Submission
+An expense submission should contain:
+- Employee ID
+- Trip date
+- Trip amount
+- Currency
+- Business purpose
+- Trip type
+- Approval reference, if applicable
+
+6. Missing Information
+Expenses with missing employee ID, trip amount, or business purpose should be flagged for review.
+
+7. Example
+If an eligible India business trip costs INR 1,500, the reimbursable amount is INR 1,500.
+If the trip costs INR 2,500 and no additional approval exists, only INR 2,000 is within the standard policy limit and the remaining INR 500 requires review.

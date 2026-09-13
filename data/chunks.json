@@ -1,0 +1,173 @@
+[
+  {
+    "chunk_id": "travel_policy_india_000",
+    "source": "travel_policy_india.txt",
+    "policy_type": "travel",
+    "country": "India",
+    "chunk_index": 0,
+    "text": "UBER FOR BUSINESS - SAMPLE TRAVEL POLICY\nCountry: India\nPolicy Version: 1.0\nEffective Date: 2026-01-01\nPolicy Owner: Corporate Travel Team\n\n1. Purpose\nThis sample policy defines when employees may use company-sponsored Uber rides for business travel in India.\n\n2. Eligible Business Trips\nEmployees may use company-sponsored rides for:\n- Travel between home and an airport when the trip is related to approved business travel.\n- Travel between company offices and approved business locations.\n- Travel to customer or partner meetings.\n- Other business travel approved by the employee's manager.",
+    "char_count": 593
+  },
+  {
+    "chunk_id": "travel_policy_india_001",
+    "source": "travel_policy_india.txt",
+    "policy_type": "travel",
+    "country": "India",
+    "chunk_index": 1,
+    "text": "company offices and approved business locations.\n- Travel to customer or partner meetings.\n- Other business travel approved by the employee's manager.\n\n3. Restricted Trips\nCompany-sponsored rides should not be used for:\n- Personal leisure trips.\n- Trips unrelated to company business.\n- Travel for family members unless explicitly approved.\n- Commutes on days when the employee is not working, unless the trip is part of approved business travel.\n\n4. Standard Trip Limit\nThe standard reimbursement limit for an individual business ride is INR 2,000 per trip.\nTrips above this limit require additional approval according to the Approval Policy.",
+    "char_count": 643
+  },
+  {
+    "chunk_id": "travel_policy_india_002",
+    "source": "travel_policy_india.txt",
+    "policy_type": "travel",
+    "country": "India",
+    "chunk_index": 2,
+    "text": "ment limit for an individual business ride is INR 2,000 per trip.\nTrips above this limit require additional approval according to the Approval Policy.\n\n5. Late-Night Travel\nBusiness travel between 10:00 PM and 6:00 AM is permitted when it is related to an approved business activity. Additional approval may be required when the trip exceeds the applicable spending limit.\n\n6. Required Information\nEmployees should provide a valid employee ID, business purpose, trip date, and cost when submitting an expense.\n\n7. Policy Interpretation\nWhen two policy rules appear to conflict, the stricter spending or approval requirement should be followed until clarification is obtained from the travel administrator.",
+    "char_count": 705
+  },
+  {
+    "chunk_id": "travel_policy_us_000",
+    "source": "travel_policy_us.txt",
+    "policy_type": "travel",
+    "country": "United States",
+    "chunk_index": 0,
+    "text": "UBER FOR BUSINESS - SAMPLE TRAVEL POLICY\nCountry: United States\nPolicy Version: 1.0\nEffective Date: 2026-01-01\nPolicy Owner: Corporate Travel Team\n\n1. Purpose\nThis sample policy defines when employees may use company-sponsored Uber rides for business travel in the United States.\n\n2. Eligible Business Trips\nEmployees may use company-sponsored rides for:\n- Approved business meetings.\n- Travel between company offices and approved business locations.\n- Airport transportation connected to approved business travel.\n- Other business travel approved by the employee's manager.",
+    "char_count": 574
+  },
+  {
+    "chunk_id": "travel_policy_us_001",
+    "source": "travel_policy_us.txt",
+    "policy_type": "travel",
+    "country": "United States",
+    "chunk_index": 1,
+    "text": "proved business locations.\n- Airport transportation connected to approved business travel.\n- Other business travel approved by the employee's manager.\n\n3. Restricted Trips\nCompany-sponsored rides should not be used for:\n- Personal leisure trips.\n- Trips unrelated to company business.\n- Travel for family members unless explicitly approved.\n- Non-business travel outside an approved business trip.\n\n4. Standard Trip Limit\nThe standard reimbursement limit for an individual business ride is USD 75 per trip.\nTrips above this limit require additional approval according to the Approval Policy.",
+    "char_count": 591
+  },
+  {
+    "chunk_id": "travel_policy_us_002",
+    "source": "travel_policy_us.txt",
+    "policy_type": "travel",
+    "country": "United States",
+    "chunk_index": 2,
+    "text": "rsement limit for an individual business ride is USD 75 per trip.\nTrips above this limit require additional approval according to the Approval Policy.\n\n5. Late-Night Travel\nBusiness travel between 10:00 PM and 6:00 AM is permitted when it is related to an approved business activity. Additional approval may be required when the trip exceeds the applicable spending limit.\n\n6. Required Information\nEmployees should provide a valid employee ID, business purpose, trip date, and cost when submitting an expense.\n\n7. Policy Interpretation\nWhen two policy rules appear to conflict, the stricter spending or approval requirement should be followed until clarification is obtained from the travel administrator.",
+    "char_count": 705
+  },
+  {
+    "chunk_id": "airport_policy_000",
+    "source": "airport_policy.txt",
+    "policy_type": "airport",
+    "country": "Global",
+    "chunk_index": 0,
+    "text": "UBER FOR BUSINESS - SAMPLE AIRPORT TRAVEL POLICY\nPolicy Version: 1.0\nEffective Date: 2026-01-01\nPolicy Owner: Airport Travel Program\n\n1. Purpose\nThis sample policy defines rules for company-sponsored Uber trips to and from airports.\n\n2. Eligible Airport Trips\nAirport trips are eligible when:\n- The employee is travelling for an approved business purpose.\n- The airport trip is connected to an approved business journey.\n- The employee uses the company-sponsored business profile.\n\n3. Airport Trip Limits\nIndia:\n- Standard limit: INR 2,000 per trip.\n- Trips above INR 2,000 require additional approval.\n\nUnited States:\n- Standard limit: USD 75 per trip.\n- Trips above USD 75 require additional approval.",
+    "char_count": 703
+  },
+  {
+    "chunk_id": "airport_policy_001",
+    "source": "airport_policy.txt",
+    "policy_type": "airport",
+    "country": "Global",
+    "chunk_index": 1,
+    "text": "rips above INR 2,000 require additional approval.\n\nUnited States:\n- Standard limit: USD 75 per trip.\n- Trips above USD 75 require additional approval.\n\n4. Late-Night Airport Trips\nAirport trips between 10:00 PM and 6:00 AM are allowed when connected to approved business travel. The normal spending and approval limits still apply.\n\n5. Personal Airport Trips\nAirport rides for personal holidays or other non-business travel are not reimbursable unless an explicit exception has been approved.\n\n6. Documentation\nThe expense record should include:\n- Employee ID\n- Airport or travel location\n- Trip date\n- Business purpose\n- Trip amount\n- Approval reference, when additional approval is required",
+    "char_count": 692
+  },
+  {
+    "chunk_id": "airport_policy_002",
+    "source": "airport_policy.txt",
+    "policy_type": "airport",
+    "country": "Global",
+    "chunk_index": 2,
+    "text": "de:\n- Employee ID\n- Airport or travel location\n- Trip date\n- Business purpose\n- Trip amount\n- Approval reference, when additional approval is required\n\n7. Example\nAn employee in India takes an approved business airport trip costing INR 1,800. The trip is within the standard limit and does not require additional spending approval.",
+    "char_count": 331
+  },
+  {
+    "chunk_id": "employee_eligibility_000",
+    "source": "employee_eligibility.txt",
+    "policy_type": "eligibility",
+    "country": "Global",
+    "chunk_index": 0,
+    "text": "UBER FOR BUSINESS - SAMPLE EMPLOYEE ELIGIBILITY POLICY\nPolicy Version: 1.0\nEffective Date: 2026-01-01\nPolicy Owner: Corporate Travel Team\n\n1. Purpose\nThis sample policy defines which employees can use company-sponsored Uber business travel.\n\n2. Eligibility Status\nEmployees can have one of three statuses:\n- Eligible: The employee can use the company-sponsored travel program subject to trip policies.\n- Not Eligible: The employee cannot use the company-sponsored travel program.\n- Approval Required: The employee may use the program only after the required approval is obtained.\n\n3. Sample Employee Records\nEmployee ID: EMP001\nCountry: India\nEmployee Type: Full-Time\nStatus: Eligible\nManager Approval: Yes",
+    "char_count": 706
+  },
+  {
+    "chunk_id": "employee_eligibility_001",
+    "source": "employee_eligibility.txt",
+    "policy_type": "eligibility",
+    "country": "Global",
+    "chunk_index": 1,
+    "text": "d approval is obtained.\n\n3. Sample Employee Records\nEmployee ID: EMP001\nCountry: India\nEmployee Type: Full-Time\nStatus: Eligible\nManager Approval: Yes\n\nEmployee ID: EMP002\nCountry: India\nEmployee Type: Contractor\nStatus: Approval Required\nManager Approval: No\n\nEmployee ID: EMP003\nCountry: United States\nEmployee Type: Full-Time\nStatus: Eligible\nManager Approval: Yes\n\nEmployee ID: EMP004\nCountry: United States\nEmployee Type: Contractor\nStatus: Not Eligible\nManager Approval: No\n\nEmployee ID: EMP005\nCountry: India\nEmployee Type: Full-Time\nStatus: Eligible\nManager Approval: Yes\n\nEmployee ID: EMP006\nCountry: United States\nEmployee Type: Full-Time\nStatus: Approval Required\nManager Approval: No",
+    "char_count": 695
+  },
+  {
+    "chunk_id": "employee_eligibility_002",
+    "source": "employee_eligibility.txt",
+    "policy_type": "eligibility",
+    "country": "Global",
+    "chunk_index": 2,
+    "text": "us: Eligible\nManager Approval: Yes\n\nEmployee ID: EMP006\nCountry: United States\nEmployee Type: Full-Time\nStatus: Approval Required\nManager Approval: No\n\n4. Eligibility Check\nThe assistant should not assume that an employee is eligible when the employee ID is missing or is not present in the available records.\n\n5. Important Note\nThese employee records are fictional sample data created only for the training project.",
+    "char_count": 416
+  },
+  {
+    "chunk_id": "expense_policy_000",
+    "source": "expense_policy.txt",
+    "policy_type": "expense",
+    "country": "Global",
+    "chunk_index": 0,
+    "text": "UBER FOR BUSINESS - SAMPLE EXPENSE POLICY\nPolicy Version: 1.0\nEffective Date: 2026-01-01\nPolicy Owner: Finance Operations\n\n1. Purpose\nThis sample policy defines how employees should handle Uber business travel expenses.\n\n2. Reimbursable Amount\nThe reimbursable amount is the lower of:\n- The actual trip amount.\n- The applicable country or trip spending limit.\n\n3. Country Limits\nIndia:\nStandard individual ride limit = INR 2,000.\n\nUnited States:\nStandard individual ride limit = USD 75.\n\n4. Trips Above the Limit\nIf the actual trip amount exceeds the applicable limit, the employee must obtain the required approval before the excess amount can be considered reimbursable.",
+    "char_count": 672
+  },
+  {
+    "chunk_id": "expense_policy_001",
+    "source": "expense_policy.txt",
+    "policy_type": "expense",
+    "country": "Global",
+    "chunk_index": 1,
+    "text": "tual trip amount exceeds the applicable limit, the employee must obtain the required approval before the excess amount can be considered reimbursable.\n\n5. Expense Submission\nAn expense submission should contain:\n- Employee ID\n- Trip date\n- Trip amount\n- Currency\n- Business purpose\n- Trip type\n- Approval reference, if applicable\n\n6. Missing Information\nExpenses with missing employee ID, trip amount, or business purpose should be flagged for review.\n\n7. Example\nIf an eligible India business trip costs INR 1,500, the reimbursable amount is INR 1,500.\nIf the trip costs INR 2,500 and no additional approval exists, only INR 2,000 is within the standard policy limit and the remaining INR 500 requires review.",
+    "char_count": 710
+  },
+  {
+    "chunk_id": "cancellation_policy_000",
+    "source": "cancellation_policy.txt",
+    "policy_type": "cancellation",
+    "country": "Global",
+    "chunk_index": 0,
+    "text": "UBER FOR BUSINESS - SAMPLE CANCELLATION POLICY\nPolicy Version: 1.0\nEffective Date: 2026-01-01\nPolicy Owner: Mobility Operations\n\n1. Purpose\nThis sample policy explains how cancelled Uber business trips should be handled.\n\n2. Employee Cancellation\nEmployees should cancel a ride as soon as they know it is no longer required.\n\n3. Cancellation Charges\nA cancellation fee may be reimbursable when:\n- The ride was booked for an approved business purpose.\n- The cancellation was necessary because the business requirement changed.\n- The charge is supported by the trip record.\n\n4. Personal Cancellations\nCancellation fees resulting from personal or non-business bookings are not reimbursable.",
+    "char_count": 687
+  },
+  {
+    "chunk_id": "cancellation_policy_001",
+    "source": "cancellation_policy.txt",
+    "policy_type": "cancellation",
+    "country": "Global",
+    "chunk_index": 1,
+    "text": "e is supported by the trip record.\n\n4. Personal Cancellations\nCancellation fees resulting from personal or non-business bookings are not reimbursable.\n\n5. Driver Cancellation\nWhen a driver cancels an eligible business trip, the employee may request another ride. Any resulting cancellation charge should be reviewed against the trip record.\n\n6. Repeated Cancellations\nRepeated cancellations may be flagged for review by the travel administrator.\n\n7. Required Information\nA cancellation review should include:\n- Employee ID\n- Trip ID, if available\n- Cancellation date\n- Cancellation reason\n- Cancellation fee\n- Business purpose",
+    "char_count": 626
+  },
+  {
+    "chunk_id": "cancellation_policy_002",
+    "source": "cancellation_policy.txt",
+    "policy_type": "cancellation",
+    "country": "Global",
+    "chunk_index": 2,
+    "text": "cellation review should include:\n- Employee ID\n- Trip ID, if available\n- Cancellation date\n- Cancellation reason\n- Cancellation fee\n- Business purpose\n\n8. Important Note\nThis document does not define how Uber calculates the actual cancellation fee. The assistant should not invent a fee amount when it is not present in the available data.",
+    "char_count": 339
+  },
+  {
+    "chunk_id": "approval_policy_000",
+    "source": "approval_policy.txt",
+    "policy_type": "approval",
+    "country": "Global",
+    "chunk_index": 0,
+    "text": "UBER FOR BUSINESS - SAMPLE TRAVEL APPROVAL POLICY\nPolicy Version: 1.0\nEffective Date: 2026-01-01\nPolicy Owner: Corporate Travel Team\n\n1. Purpose\nThis sample policy defines when additional approval is required for company-sponsored Uber travel.\n\n2. When Approval Is Required\nAdditional approval is required when:\n- A trip exceeds the standard country spending limit.\n- An employee has an \"Approval Required\" eligibility status.\n- A policy explicitly states that manager approval is required.\n\n3. Standard Spending Limits\nIndia: INR 2,000 per individual ride.\nUnited States: USD 75 per individual ride.\n\n4. Approval Hierarchy\nFirst level: Employee's manager.\nSecond level: Travel administrator, when required by the business policy.",
+    "char_count": 730
+  },
+  {
+    "chunk_id": "approval_policy_001",
+    "source": "approval_policy.txt",
+    "policy_type": "approval",
+    "country": "Global",
+    "chunk_index": 1,
+    "text": "per individual ride.\n\n4. Approval Hierarchy\nFirst level: Employee's manager.\nSecond level: Travel administrator, when required by the business policy.\n\n5. Approval Evidence\nThe approval record should contain:\n- Employee ID\n- Approver name or ID\n- Approval date\n- Trip or expense reference\n- Approved amount or exception\n\n6. Pending Approval\nIf approval is required but no approval record exists, the trip should be classified as \"Needs Approval\" rather than \"Approved.\"\n\n7. Example\nEMP002 is marked \"Approval Required.\" Even if the trip amount is below the normal country limit, the employee must obtain the required approval before using the company-sponsored travel program.\n\n8. Assistant Behaviour\nThe assistant should never claim that an approval exists unless an approval record is available.",
+    "char_count": 797
+  }
+]

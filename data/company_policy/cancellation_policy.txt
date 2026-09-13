@@ -1,0 +1,37 @@
+UBER FOR BUSINESS - SAMPLE CANCELLATION POLICY
+Policy Version: 1.0
+Effective Date: 2026-01-01
+Policy Owner: Mobility Operations
+
+1. Purpose
+This sample policy explains how cancelled Uber business trips should be handled.
+
+2. Employee Cancellation
+Employees should cancel a ride as soon as they know it is no longer required.
+
+3. Cancellation Charges
+A cancellation fee may be reimbursable when:
+- The ride was booked for an approved business purpose.
+- The cancellation was necessary because the business requirement changed.
+- The charge is supported by the trip record.
+
+4. Personal Cancellations
+Cancellation fees resulting from personal or non-business bookings are not reimbursable.
+
+5. Driver Cancellation
+When a driver cancels an eligible business trip, the employee may request another ride. Any resulting cancellation charge should be reviewed against the trip record.
+
+6. Repeated Cancellations
+Repeated cancellations may be flagged for review by the travel administrator.
+
+7. Required Information
+A cancellation review should include:
+- Employee ID
+- Trip ID, if available
+- Cancellation date
+- Cancellation reason
+- Cancellation fee
+- Business purpose
+
+8. Important Note
+This document does not define how Uber calculates the actual cancellation fee. The assistant should not invent a fee amount when it is not present in the available data.

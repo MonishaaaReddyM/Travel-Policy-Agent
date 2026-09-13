@@ -1,0 +1,35 @@
+UBER FOR BUSINESS - SAMPLE TRAVEL POLICY
+Country: India
+Policy Version: 1.0
+Effective Date: 2026-01-01
+Policy Owner: Corporate Travel Team
+
+1. Purpose
+This sample policy defines when employees may use company-sponsored Uber rides for business travel in India.
+
+2. Eligible Business Trips
+Employees may use company-sponsored rides for:
+- Travel between home and an airport when the trip is related to approved business travel.
+- Travel between company offices and approved business locations.
+- Travel to customer or partner meetings.
+- Other business travel approved by the employee's manager.
+
+3. Restricted Trips
+Company-sponsored rides should not be used for:
+- Personal leisure trips.
+- Trips unrelated to company business.
+- Travel for family members unless explicitly approved.
+- Commutes on days when the employee is not working, unless the trip is part of approved business travel.
+
+4. Standard Trip Limit
+The standard reimbursement limit for an individual business ride is INR 2,000 per trip.
+Trips above this limit require additional approval according to the Approval Policy.
+
+5. Late-Night Travel
+Business travel between 10:00 PM and 6:00 AM is permitted when it is related to an approved business activity. Additional approval may be required when the trip exceeds the applicable spending limit.
+
+6. Required Information
+Employees should provide a valid employee ID, business purpose, trip date, and cost when submitting an expense.
+
+7. Policy Interpretation
+When two policy rules appear to conflict, the stricter spending or approval requirement should be followed until clarification is obtained from the travel administrator.

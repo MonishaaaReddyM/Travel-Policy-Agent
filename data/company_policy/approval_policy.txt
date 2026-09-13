@@ -1,0 +1,38 @@
+UBER FOR BUSINESS - SAMPLE TRAVEL APPROVAL POLICY
+Policy Version: 1.0
+Effective Date: 2026-01-01
+Policy Owner: Corporate Travel Team
+
+1. Purpose
+This sample policy defines when additional approval is required for company-sponsored Uber travel.
+
+2. When Approval Is Required
+Additional approval is required when:
+- A trip exceeds the standard country spending limit.
+- An employee has an "Approval Required" eligibility status.
+- A policy explicitly states that manager approval is required.
+
+3. Standard Spending Limits
+India: INR 2,000 per individual ride.
+United States: USD 75 per individual ride.
+
+4. Approval Hierarchy
+First level: Employee's manager.
+Second level: Travel administrator, when required by the business policy.
+
+5. Approval Evidence
+The approval record should contain:
+- Employee ID
+- Approver name or ID
+- Approval date
+- Trip or expense reference
+- Approved amount or exception
+
+6. Pending Approval
+If approval is required but no approval record exists, the trip should be classified as "Needs Approval" rather than "Approved."
+
+7. Example
+EMP002 is marked "Approval Required." Even if the trip amount is below the normal country limit, the employee must obtain the required approval before using the company-sponsored travel program.
+
+8. Assistant Behaviour
+The assistant should never claim that an approval exists unless an approval record is available.

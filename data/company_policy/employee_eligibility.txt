@@ -1,0 +1,56 @@
+UBER FOR BUSINESS - SAMPLE EMPLOYEE ELIGIBILITY POLICY
+Policy Version: 1.0
+Effective Date: 2026-01-01
+Policy Owner: Corporate Travel Team
+
+1. Purpose
+This sample policy defines which employees can use company-sponsored Uber business travel.
+
+2. Eligibility Status
+Employees can have one of three statuses:
+- Eligible: The employee can use the company-sponsored travel program subject to trip policies.
+- Not Eligible: The employee cannot use the company-sponsored travel program.
+- Approval Required: The employee may use the program only after the required approval is obtained.
+
+3. Sample Employee Records
+Employee ID: EMP001
+Country: India
+Employee Type: Full-Time
+Status: Eligible
+Manager Approval: Yes
+
+Employee ID: EMP002
+Country: India
+Employee Type: Contractor
+Status: Approval Required
+Manager Approval: No
+
+Employee ID: EMP003
+Country: United States
+Employee Type: Full-Time
+Status: Eligible
+Manager Approval: Yes
+
+Employee ID: EMP004
+Country: United States
+Employee Type: Contractor
+Status: Not Eligible
+Manager Approval: No
+
+Employee ID: EMP005
+Country: India
+Employee Type: Full-Time
+Status: Eligible
+Manager Approval: Yes
+
+Employee ID: EMP006
+Country: United States
+Employee Type: Full-Time
+Status: Approval Required
+Manager Approval: No
+
+4. Eligibility Check
+The assistant should not assume that an employee is eligible when the employee ID is missing or is not present in the available records.
+
+5. Important Note
+These employee records are fictional sample data created only for the training project.

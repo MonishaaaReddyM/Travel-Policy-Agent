@@ -1,0 +1,24 @@
+# Core
+pandas
+numpy
+
+# Embeddings & vector search
+sentence-transformers
+faiss-cpu
+chromadb
+
+# LLM / Agent framework
+langchain
+langchain-community
+langgraph
+ollama
+
+# MCP
+mcp
+
+# Web app
+flask
+
+# Utilities
+python-dotenv
+tqdm

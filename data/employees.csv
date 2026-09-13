@@ -1,0 +1,7 @@
+employee_id,country,employee_type,status,manager_approval
+EMP001,India,Full-Time,Eligible,Yes
+EMP002,India,Contractor,Approval Required,No
+EMP003,United States,Full-Time,Eligible,Yes
+EMP004,United States,Contractor,Not Eligible,No
+EMP005,India,Full-Time,Eligible,Yes
+EMP006,United States,Full-Time,Approval Required,No
