@@ -155,7 +155,7 @@ class TripValidationResult:
     amount: float
     currency: str
     time: str | None
-    status: str  # "Approved" | "Needs Approval" | "Not Eligible" | "Unknown Employee"
+    status: str  # "Approved" | "Needs Approval" | "Not Eligible" | "Unknown Employee" | "Invalid Amount"
     reason: str
     reimbursement: ReimbursementResult | None = None
 
@@ -187,6 +187,33 @@ def validate_trip(
         -> status="Needs Approval", reason="... exceeds the standard India
            policy limit of INR 2,000 ..."
     """
+    # Invalid trip amount (negative, non-numeric, or missing) is checked
+    # before eligibility, since there's nothing meaningful to validate
+    # otherwise - this is a data problem, not a policy decision.
+    try:
+        amount = float(amount)
+    except (TypeError, ValueError):
+        return TripValidationResult(
+            employee_id=employee_id,
+            trip_type=trip_type,
+            amount=0,
+            currency=currency or "",
+            time=time,
+            status="Invalid Amount",
+            reason=f"'{amount}' is not a valid trip amount. Please provide a positive number.",
+        )
+
+    if amount < 0:
+        return TripValidationResult(
+            employee_id=employee_id,
+            trip_type=trip_type,
+            amount=amount,
+            currency=currency or "",
+            time=time,
+            status="Invalid Amount",
+            reason="Trip amount cannot be negative.",
+        )
+
     eligibility = check_employee_eligibility(employee_id)
 
     if not eligibility.found:
@@ -329,6 +356,8 @@ if __name__ == "__main__":
     print(validate_trip("EMP002", "airport", 500, time="09:00"))   # Approval Required regardless
     print(validate_trip("EMP004", "airport", 50, time="09:00"))    # Not Eligible
     print(validate_trip("EMP999", "airport", 100, time="09:00"))   # Unknown employee
+    print(validate_trip("EMP001", "airport", -500, time="09:00"))  # Invalid: negative amount
+    print(validate_trip("EMP001", "airport", "abc", time="09:00")) # Invalid: non-numeric amount
 
     print("\n=== Reimbursement Calculator ===")
     print(calculate_reimbursement(2500, 2000))
