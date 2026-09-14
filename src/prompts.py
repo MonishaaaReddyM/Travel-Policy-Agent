@@ -144,12 +144,37 @@ JSON:
 """
 
 
+
+# ---------------------------------------------------------------------------
+# 6. Conversational memory — condensing a follow-up into a standalone question
+# ---------------------------------------------------------------------------
+
+CONDENSE_FOLLOWUP_PROMPT = """\
+You rewrite a follow-up question into a standalone question, using the
+recent conversation for context. Do not answer the question - only rewrite
+it so it can be understood without the earlier turns.
+
+If the follow-up question is already standalone and doesn't depend on the
+earlier conversation, return it unchanged.
+
+Respond with ONLY the rewritten question, no explanation, no quotes.
+
+Conversation so far:
+{history}
+
+Follow-up question: {question}
+
+Standalone question:
+"""
+
+
 PROMPT_LIBRARY = {
     "policy_qa_ptcf": POLICY_QA_PROMPT_PTCF,
     "trip_validation_role": TRIP_VALIDATION_ROLE_PROMPT,
     "chunk_classification_fewshot": CHUNK_CLASSIFICATION_FEWSHOT_PROMPT,
     "policy_summary_structured": POLICY_SUMMARY_STRUCTURED_PROMPT,
     "trip_request_extraction": TRIP_REQUEST_EXTRACTION_PROMPT,
+    "condense_followup": CONDENSE_FOLLOWUP_PROMPT,
 }
 
 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Travel &amp; Policy Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Travel &amp; Policy Assistant</h1>
+            <p class="subtitle">Ask about travel policy, or check whether a trip is approved.</p>
+        </header>
+
+        <section class="card">
+            <label for="employee-id">Employee ID <span class="optional">(optional)</span></label>
+            <input type="text" id="employee-id" placeholder="EMP001" autocomplete="off">
+
+            <label for="question">Ask your question</label>
+            <textarea id="question" rows="3" placeholder="Can I take an airport trip costing ₹2,500?"></textarea>
+
+            <div class="button-row">
+                <button id="ask-btn">Ask Assistant</button>
+                <button id="clear-btn" class="secondary">Clear conversation</button>
+            </div>
+
+            <div id="loading" class="loading hidden">Thinking...</div>
+            <div id="error" class="error hidden"></div>
+        </section>
+
+        <section id="answer-section" class="card hidden">
+            <h2>Assistant</h2>
+            <p id="answer-text"></p>
+            <div id="source-block" class="source-block hidden">
+                <strong>Policy Source:</strong> <span id="source-text"></span>
+            </div>
+            <div id="route-badge" class="route-badge"></div>
+        </section>
+
+        <section class="card">
+            <h2>Conversation History</h2>
+            <div id="history" class="history">
+                <p class="empty-state">No conversation yet — ask a question above.</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
